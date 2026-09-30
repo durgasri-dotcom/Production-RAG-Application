@@ -47,15 +47,3 @@ Configuration is managed via YAML profiles in the root directory:
 - `settings-ollama.yaml`: Configuration for Ollama local execution.
 - `settings-local.yaml`: Configuration for local LlamaCPP/HuggingFace execution.
 
-## 🧪 Evaluation
-
-Run the evaluation pipeline to verify retrieval quality:
-
-```bash
-python production_rag/rag/evaluation/evaluator.py --threshold 0.7
-```
-
-## 🛡️ License
-
-This project is licensed under the Apache-2.0 License.
-
